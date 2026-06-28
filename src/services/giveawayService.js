@@ -194,7 +194,7 @@ export function createGiveawayButtons(ended = false) {
                     .setDisabled(false),
                 new ButtonBuilder()
                     .setCustomId('giveaway_end')
-                    .setLabel('🛑 End')
+                    .setLabel('🔨 End')
                     .setStyle(ButtonStyle.Danger)
                     .setDisabled(false)
             );
